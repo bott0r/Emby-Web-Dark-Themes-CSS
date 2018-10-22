@@ -1,0 +1,66 @@
+/* 2.2.2 Logos */
+/* Login Page */
+.imgLogoIcon {
+  content: url(https://emby.media/community/uploads/inline/1037/554bf39df16ac_Capture.png) !important; }
+
+#loginPage h1 {visibility: hidden;}
+#loginPage div.skinHeader{display:none; !important; }
+#homeTab .customizeSection {display: none;}
+
+#loginPage .readOnlyContent, form {
+    max-width: 27em; }
+
+#loginPage .button-submit  {
+    background: #4F93A6; }
+	
+#loginPage .inputLabelFocused {
+	color: #4F93A6 !important; }
+
+#loginPage .checkboxOutline, .emby-input:focus {
+	border-color:#4F93A6 !important; }
+	
+#loginPage .checkboxOutline {
+	background-color: #4F93A6 !important; }
+
+#loginPage {
+    background: url(https://i.imgur.com/Y57POcI.jpg);
+   -webkit-background-size: cover;
+	background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Main Drawer Mobile */
+.adminDrawerLogo img {
+  content: url(https://i.imgur.com/oS0fp6M.png) !important; }
+
+/* ----- Home ----- */
+/* Similar Contents and Scenes in Media Detail Page */
+	#similarCollapsible, #scenesCollapsible { 
+	display: none !important; }	
+
+/* Home Page */
+.pageTitleWithLogo {
+  background-image: url(https://i.imgur.com/oS0fp6M.png) !important; }
+
+
+/*Make Played Indicator into Ribbon LHS*/
+.playedIndicator i, .syncIndicator i {font-size: 150%; transform: rotate(45deg);}
+.card .playedIndicator, .card .countIndicator {width: 75px; height: 25px; border-radius: 0%; transform: rotate(-45deg); border-style: solid; border-width: 1px; border-color: rgba(255, 255, 255, 0.5); display: flex; align-items: center; justify-content: center;}
+.cardIndicators {right: initial !important; top: 4px !important; left: -21px;}
+
+/* Episode Vertical List Played Indicator into Ribbon LHS*/
+.listItem[data-action=none] {padding: 0 0 30px 0 !important;}
+.listItemIndicators {top: 4px !important; left: -21px;}
+.listItemImage-large {width: 400px !important; height: 225px !important;}
+.playedIndicator {width: 75px !important; height: 25px !important; border-radius: 0% !important; transform: rotate(-45deg) !important; border-style: solid !important; border-width: 1px !important; border-color: rgba(255, 255, 255, 0.5) !important; display: flex !important; align-items: center !important; justify-content: center !important;}
+.listItem-content {background: rgba(0, 0, 0, 0.3);}
+
+
+/*Center Card Footer*/
+.innerCardFooter {width: 100%; text-align: center !important;}
+
+/* ----- Change background Image Transparency ----*/
+.backgroundContainer.withBackdrop {
+    background: rgba(0, 0, 0, .6)!important;
+}
